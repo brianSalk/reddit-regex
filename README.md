@@ -7,7 +7,7 @@ This app has the following advantages over reddits built-in search function:
 * You can use regex
 * You can toggle case-senstivity
 * You can show only whole-word matches
-* You can limit the number of searches per query (i.e. only show 100 newest posts in animalrights matching `carni[sm][st]`)
+* You can limit the number of searches per query (i.e. only show 100 newest posts in **r/animalrights** matching `carni[sm][st]`)
 * hits are displayed in a much more concise format, making it easier to find what you are looking for.
 ### Contribution
 I greatly appreciate **any and all** contributions.  Submit a pull request or leave a note in the issues!  Here is a list of issues that the app currently has:  
