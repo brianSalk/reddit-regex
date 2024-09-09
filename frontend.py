@@ -40,7 +40,7 @@ if __name__ == '__main__':
         st.subheader('App created by Brian Salkas')
         st.write('Got any ideas to improve this app?  Open an issue [here](%s)' % 'https://github.com/brianSalk/search-reddit/issues')
         st.write('If you are a programmer, send me a pull request [here](%s)' % 'https://github.com/brianSalk/search-reddit/pulls')
-    title_text = 'reddit regex'.title()
+    title_text = 'greppit'.title()
     st.markdown('<h1 style="color: #FF4500;">' + title_text + '</h1>',unsafe_allow_html=True)
     st.markdown('<h2>It\'s like grep for reddit :-)</h2>', unsafe_allow_html=True)
 
