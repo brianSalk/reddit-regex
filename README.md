@@ -1,7 +1,7 @@
 # Reddit Regex
 This is a webapp that allows users to search for a word, phrase, or regex pattern in multiple subreddits.  
 The hits are printed to the screen in the form of a link, making it super easy to find the submission.  
-[Here](https://reddit-searcher.streamlit.app/) is the streamlit powered app.  
+[Here](https://greppit.streamlit.app/) is the streamlit powered app.  
 ## Use Cases
 This app has the following advantages over reddits built-in search function:
 * You can use regex
