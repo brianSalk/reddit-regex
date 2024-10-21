@@ -22,7 +22,7 @@ def clean_subreddits(subreddits):
     when the user types a list of subreddits, 
     remove commas and 'r/' prefix
     """
-    cleaned = []
+    cleaned_subreddits = []
     for sub in subreddits:
         if ',' in sub:
             sub = sub.replace(',', '')
@@ -30,8 +30,8 @@ def clean_subreddits(subreddits):
         if sub.startswith('r/') or sub.startswith('R/'):
             sub = sub[2:]
         if len(sub) > 0:
-            cleaned.append(sub.lower())
-    return cleaned
+            cleaned_subreddits.append(sub.lower())
+    return cleaned_subreddits
 
 
 
